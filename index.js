@@ -94,7 +94,7 @@ const bar1 = {
     bot() {
         if(ball.x <= board.w / 2) {
             if(ball.y > bar1.y + bar1.h) 
-                bar1.y += rand(9,15);
+                bar1.y += rand(9,14);
             else if(ball.y < bar1.y)
                 bar1.y -= rand(9,15);
         }
