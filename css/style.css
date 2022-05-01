@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #262525;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
+h1 {
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+}
+h2 {
+    padding: 10px 15px;
+    border: 1px solid #fff;
+}
+p {
+    font-size: 1.8em;
+    padding: 15px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+.btns button {
+    border: 1px solid #fff;
+    background-color: #262525;
+    margin: 0;
+    width: 110px;
+    padding: 10px 0;
+    font: 1.2em Roboto, sans-serif;
+    color: #fff;
+}
+.btns button:hover {
+    opacity: .8;
+}
+#bot {
+    border-right: 0;
+    border-radius: 10px 0 0 10px;
+}
+#ply {
+    border-left: 0;
+    border-radius: 0 10px 10px 0;
+}
+.selected {
+    color: #262525!important;
+    background-color: #fff!important;
+}
+.btn {
+    background-color: #000;
+    padding: 10px 60px;
+    margin-top: 50px;
+    font: 1.9em Roboto, sans-serif;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover {
+    background-color: #0c0c0c;
+}
+#player {
+    display: flex;
+    justify-content: space-between;
+}
+#inside {
+    display: flex;
+    justify-content: center;
+}
+#board {
+    position: relative;
+}
+#line {
+    width: 1px;
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+}
